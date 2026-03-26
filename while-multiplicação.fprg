@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="while-multiplica&#231;&#227;o"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-26 12:04:55 "/>
+        <attribute name="created" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDMtMjY7IjExOjQzOjM2ICI7MjIwMQ=="/>
+        <attribute name="edited" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDMtMjY7IjEyOjA0OjU1ICI7MTsyMzA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor, mult, total" type="Integer" array="False" size=""/>
+            <assign variable="mult" expression="1"/>
+            <output expression="&quot;Escreva o valor a ser multiplicado:&quot;" newline="True"/>
+            <input variable="valor"/>
+            <while expression="mult&lt;=6">
+                <assign variable="total" expression="valor*mult"/>
+                <output expression="total" newline="True"/>
+                <assign variable="mult" expression="mult+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
