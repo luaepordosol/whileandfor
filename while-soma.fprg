@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="while-soma"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-26 11:15:50 "/>
+        <attribute name="created" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDMtMjY7IjExOjA0OjMwICI7MjE5Mg=="/>
+        <attribute name="edited" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDMtMjY7IjExOjE1OjUwICI7MTsyMzA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma, numero" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <output expression="&quot;Informe n&#250;mero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <while expression="numero&gt;0">
+                <assign variable="soma" expression="numero+soma"/>
+                <output expression="&quot;Informe o n&#250;mero&quot;" newline="True"/>
+                <input variable="numero"/>
+            </while>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

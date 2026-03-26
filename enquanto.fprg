@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="enquanto"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-26 10:52:37 "/>
+        <attribute name="created" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDMtMjY7IjEwOjQwOjEzICI7MjE5Mg=="/>
+        <attribute name="edited" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDMtMjY7IjEwOjUyOjM3ICI7MTsyMzA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <assign variable="valor" expression="1"/>
+            <while expression="valor&lt;=20">
+                <output expression="valor" newline="True"/>
+                <assign variable="valor" expression="valor+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
