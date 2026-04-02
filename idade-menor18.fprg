@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="idade-menor18"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-02 10:08:21 a.m."/>
+        <attribute name="created" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDQtMDI7MDk6MjM6NTMgYS5tLjsyNDMw"/>
+        <attribute name="edited" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDQtMDI7MTA6MDg6MjEgYS5tLjsxOzI1Mjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <while expression="numero&lt;1 || numero&gt;18">
+                <output expression="&quot;Digite sua idade&quot;" newline="True"/>
+                <input variable="numero"/>
+                <if expression="numero&lt;1 || numero&gt;10">
+                    <then>
+                        <output expression="&quot;Idade inv&#225;lida&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Idade aceita!&quot;" newline="True"/>
+                    </else>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
